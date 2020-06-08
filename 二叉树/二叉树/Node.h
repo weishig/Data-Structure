@@ -33,4 +33,5 @@ void print_postorder_recursive(struct node* root);
 struct node* tree_successor(struct node* node);
 struct node* tree_predecessor(struct node* node);
 void print_inorder_by_TREE_SUCCESSOR(struct node* root);
+void insertion(struct node* root,struct node* newNode);
 #endif /* Node_h */

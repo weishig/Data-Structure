@@ -44,6 +44,7 @@ int main(int argc, const char * argv[]) {
     cout<<"predeccessor of "<<node1->val<<" is "<<predeccessor->val<<endl;
     
     print_inorder_by_TREE_SUCCESSOR(root);
-    
+    struct node* to_add=createNode(14);
+    insertion(root, to_add);
     return 0;
 }

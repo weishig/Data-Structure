@@ -147,3 +147,28 @@ void print_inorder_by_TREE_SUCCESSOR(struct node* root){
     cout<<endl;
     
 }
+void insertion(struct node* root,struct node* newNode){
+    
+    struct node* y=NULL;
+    struct node* x=root;
+    while (x!=NULL) {
+        y=x;
+        if (newNode->val<x->val) {
+            x=x->left;
+        }
+        else if(newNode->val>x->val){
+            x=x->right;
+        }
+    }
+    if (y==NULL) {
+        root=root;
+    }
+    else if (newNode->val<y->val) {
+        y->left=newNode;
+    }
+    else if(newNode->val>y->val){
+        y->right=newNode;
+    }
+
+    return;
+}
