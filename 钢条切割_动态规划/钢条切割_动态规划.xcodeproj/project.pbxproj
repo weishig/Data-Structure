@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF43BD5E244805E00024C4A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF43BD5D244805E00024C4A1 /* main.cpp */; };
+		DF963E642492ECF7003A47A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF963E632492ECF7003A47A6 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DF43BD58244805E00024C4A1 /* CopyFiles */ = {
+		DF963E5E2492ECF7003A47A6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DF43BD5A244805E00024C4A1 /* heap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = heap; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF43BD5D244805E00024C4A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DF963E602492ECF7003A47A6 /* 钢条切割_动态规划 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "钢条切割_动态规划"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF963E632492ECF7003A47A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF43BD57244805E00024C4A1 /* Frameworks */ = {
+		DF963E5D2492ECF7003A47A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF43BD51244805E00024C4A1 = {
+		DF963E572492ECF7003A47A6 = {
 			isa = PBXGroup;
 			children = (
-				DF43BD5C244805E00024C4A1 /* heap */,
-				DF43BD5B244805E00024C4A1 /* Products */,
+				DF963E622492ECF7003A47A6 /* 钢条切割_动态规划 */,
+				DF963E612492ECF7003A47A6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF43BD5B244805E00024C4A1 /* Products */ = {
+		DF963E612492ECF7003A47A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF43BD5A244805E00024C4A1 /* heap */,
+				DF963E602492ECF7003A47A6 /* 钢条切割_动态规划 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF43BD5C244805E00024C4A1 /* heap */ = {
+		DF963E622492ECF7003A47A6 /* 钢条切割_动态规划 */ = {
 			isa = PBXGroup;
 			children = (
-				DF43BD5D244805E00024C4A1 /* main.cpp */,
+				DF963E632492ECF7003A47A6 /* main.cpp */,
 			);
-			path = heap;
+			path = "钢条切割_动态规划";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF43BD59244805E00024C4A1 /* heap */ = {
+		DF963E5F2492ECF7003A47A6 /* 钢条切割_动态规划 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF43BD61244805E00024C4A1 /* Build configuration list for PBXNativeTarget "heap" */;
+			buildConfigurationList = DF963E672492ECF7003A47A6 /* Build configuration list for PBXNativeTarget "钢条切割_动态规划" */;
 			buildPhases = (
-				DF43BD56244805E00024C4A1 /* Sources */,
-				DF43BD57244805E00024C4A1 /* Frameworks */,
-				DF43BD58244805E00024C4A1 /* CopyFiles */,
+				DF963E5C2492ECF7003A47A6 /* Sources */,
+				DF963E5D2492ECF7003A47A6 /* Frameworks */,
+				DF963E5E2492ECF7003A47A6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = heap;
-			productName = "leetcode814 二叉树剪枝";
-			productReference = DF43BD5A244805E00024C4A1 /* heap */;
+			name = "钢条切割_动态规划";
+			productName = "钢条切割_动态规划";
+			productReference = DF963E602492ECF7003A47A6 /* 钢条切割_动态规划 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF43BD52244805E00024C4A1 /* Project object */ = {
+		DF963E582492ECF7003A47A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = Weishi;
 				TargetAttributes = {
-					DF43BD59244805E00024C4A1 = {
-						CreatedOnToolsVersion = 11.4;
+					DF963E5F2492ECF7003A47A6 = {
+						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = DF43BD55244805E00024C4A1 /* Build configuration list for PBXProject "heap" */;
+			buildConfigurationList = DF963E5B2492ECF7003A47A6 /* Build configuration list for PBXProject "钢条切割_动态规划" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = DF43BD51244805E00024C4A1;
-			productRefGroup = DF43BD5B244805E00024C4A1 /* Products */;
+			mainGroup = DF963E572492ECF7003A47A6;
+			productRefGroup = DF963E612492ECF7003A47A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF43BD59244805E00024C4A1 /* heap */,
+				DF963E5F2492ECF7003A47A6 /* 钢条切割_动态规划 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF43BD56244805E00024C4A1 /* Sources */ = {
+		DF963E5C2492ECF7003A47A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF43BD5E244805E00024C4A1 /* main.cpp in Sources */,
+				DF963E642492ECF7003A47A6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DF43BD5F244805E00024C4A1 /* Debug */ = {
+		DF963E652492ECF7003A47A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		DF43BD60244805E00024C4A1 /* Release */ = {
+		DF963E662492ECF7003A47A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +235,7 @@
 			};
 			name = Release;
 		};
-		DF43BD62244805E00024C4A1 /* Debug */ = {
+		DF963E682492ECF7003A47A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -245,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		DF43BD63244805E00024C4A1 /* Release */ = {
+		DF963E692492ECF7003A47A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -258,25 +258,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF43BD55244805E00024C4A1 /* Build configuration list for PBXProject "heap" */ = {
+		DF963E5B2492ECF7003A47A6 /* Build configuration list for PBXProject "钢条切割_动态规划" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF43BD5F244805E00024C4A1 /* Debug */,
-				DF43BD60244805E00024C4A1 /* Release */,
+				DF963E652492ECF7003A47A6 /* Debug */,
+				DF963E662492ECF7003A47A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF43BD61244805E00024C4A1 /* Build configuration list for PBXNativeTarget "heap" */ = {
+		DF963E672492ECF7003A47A6 /* Build configuration list for PBXNativeTarget "钢条切割_动态规划" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF43BD62244805E00024C4A1 /* Debug */,
-				DF43BD63244805E00024C4A1 /* Release */,
+				DF963E682492ECF7003A47A6 /* Debug */,
+				DF963E692492ECF7003A47A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF43BD52244805E00024C4A1 /* Project object */;
+	rootObject = DF963E582492ECF7003A47A6 /* Project object */;
 }

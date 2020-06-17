@@ -7,7 +7,7 @@
 #include <stack>
 #include <map>
 #include <queue>
-#include "Node.cpp"
+
 #include <algorithm>
 using namespace std;
 struct ListNode {

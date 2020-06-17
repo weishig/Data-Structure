@@ -172,3 +172,61 @@ void insertion(struct node* root,struct node* newNode){
 
     return;
 }
+
+void insertion_recursive(struct node* node,struct node* newNode){
+    if (node==NULL) {
+        return;
+    }
+    
+    if (newNode->val<node->val) {
+        if(node->left==NULL) {
+            node->left=newNode;
+            return;
+            
+        }
+        else{
+            insertion_recursive(node->left, newNode);
+        }
+    }
+    else if(newNode->val>node->val){
+        if (node->right==NULL) {
+            node->right=newNode;
+            return;
+        }
+        else{
+            insertion_recursive(node->right, newNode);
+        }
+    }
+    return;
+}
+
+void transplant(struct node* u,struct node* v){
+    // replace u by v
+    if (u->parent->left==u) {
+        u->parent->left=v;
+    }
+    else u->parent->right=v;
+    if(v!=NULL) v->parent=u->parent;
+    free(u);
+    return;
+}
+void tree_delete(struct node* delete_node){
+    if (delete_node->left==NULL) {
+        transplant(delete_node, delete_node->left);
+    }
+    else if(delete_node->right==NULL){
+        transplant(delete_node, delete_node->left);
+    }
+    else{
+        struct node* successor=tree_successor(delete_node);
+        if(successor==delete_node->right){
+            delete_node->val=successor->val;
+            transplant(successor, successor->right);
+        }
+        else {
+            delete_node->val=successor->val;
+            transplant(successor->parent->left, successor->right);
+        }
+    }
+    return;
+}

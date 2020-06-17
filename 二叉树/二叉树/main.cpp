@@ -43,8 +43,17 @@ int main(int argc, const char * argv[]) {
     struct node* predeccessor=tree_predecessor(node1);
     cout<<"predeccessor of "<<node1->val<<" is "<<predeccessor->val<<endl;
     
-    print_inorder_by_TREE_SUCCESSOR(root);
-    struct node* to_add=createNode(14);
-    insertion(root, to_add);
+    struct node* node17=tree_search_recursive(root, 6);
+    tree_delete(node17);
+    cout<<"delete 6"<<endl;
+    print_inorder_recursive(root);
+    cout<<endl;
+    
+    struct node* node21=createNode(1);
+    insertion_recursive(root, node21);
+    cout<<"insert 21"<<endl;
+    print_inorder_recursive(root);
+    cout<<endl;
+    
     return 0;
 }
