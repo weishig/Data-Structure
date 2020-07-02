@@ -29,9 +29,7 @@ int parent(int i){
     return i/2;
 }
 void max_heapify(vector<int>& heap,int i,int size){
-    //int size=(int)heap.size();
-    
-    
+  
     while (true) {
         int left=Left(i);
         int right=Right(i);
@@ -62,23 +60,11 @@ void max_heapify(vector<int>& heap,int i,int size){
 void build_max_heap(vector<int> &heap){
     int size=(int) heap.size();
     for(int i=size/2-1;i>=0;--i){
-        if(i==1){
-            
-        }
         max_heapify(heap, i,size);
     }
     
 }
-/*
-void sort_heap(vector<int> &heap){
-    int size=(int)heap.size();
-    for (int i=size-1; i>=0; i--) {
-        int tmp=heap[0];
-        heap[0]=heap[i];
-        max_heapify(heap, 0, size--);
-        heap[i]=tmp;
-    }
-}*/
+
 void push_heap(vector<int> &heap,int k){
     if(k>heap[0]) return;
     
